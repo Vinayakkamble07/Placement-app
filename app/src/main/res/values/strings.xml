@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Placement</string>
+    <string-array name="Sem">
+        <item>1sem</item>
+        <item>2sem</item>
+        <item>3sem</item>
+        <item>4sem</item>
+        <item>5sem</item>
+        <item>6sem</item>
+
+    </string-array>
+</resources>
