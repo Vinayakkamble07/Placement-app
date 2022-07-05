@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".apti_cse"
+    android:background="@color/brickred">
+
+    <TextView
+        android:id="@+id/linktv1"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:text="@string/hyperLink"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.087" />
+
+    <TextView
+        android:id="@+id/linktv2"
+        android:layout_width="363dp"
+        android:layout_height="96dp"
+        android:layout_marginEnd="32dp"
+        android:gravity="center"
+        android:text="@string/hyperLink1"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242" />
+
+    <TextView
+        android:id="@+id/linktv3"
+        android:layout_width="321dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center"
+        android:text="@string/hyperLink2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.407" />
+
+    <TextView
+        android:id="@+id/linktv4"
+        android:layout_width="350dp"
+        android:layout_height="121dp"
+        android:layout_marginEnd="44dp"
+        android:gravity="center"
+        android:text="@string/hyperLink3"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.6" />
+
+    <TextView
+        android:id="@+id/linktv5"
+        android:layout_width="310dp"
+        android:layout_height="148dp"
+        android:layout_marginEnd="60dp"
+        android:gravity="center"
+        android:text="@string/hyperLink4"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

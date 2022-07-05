@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Placement"
         tools:targetApi="31">
         <activity
+            android:name=".pgm_cse"
+            android:exported="false" />
+        <activity
+            android:name=".interview_cse"
+            android:exported="false" />
+        <activity
+            android:name=".apti_cse"
+            android:exported="false" />
+        <activity
             android:name=".MechActivity"
             android:exported="false" />
         <activity

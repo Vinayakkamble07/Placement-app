@@ -9,5 +9,37 @@
         <item>6sem</item>
 
     </string-array>
+    <string name="title_activity_programming_cse">programming_cse</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="hyperLink">GFG APPTITUDE  <a href="https://www.geeksforgeeks.org/placements-gq/">GeeksForGeeks</a> </string>
+
+    <string name="hyperLink1">FACE PREP APPTITUDE  <a href="https://www.faceprep.in/quantitative-aptitude/">FACEPREP</a> </string>
+    <string name="hyperLink2">FRESHERS LIVE APPTITUDE  <a href="https://www.fresherslive.com/online-test/aptitude-test/questions-and-answers">FRESHERSLIVE</a> </string>
+    <string name="hyperLink3">YOUTH4WORK APPTITUDE   <a href="https://www.prep.youth4work.com/placement-papers">YOUTH4WORK</a> </string>
+    <string name="hyperLink4">PRACTICE APPTITUDE   <a href="https://www.practiceaptitudetests.com/">PRACTICEAPPTITUDE</a> </string>
+
+
+    <string name="pgm1">GFG DSA  <a href="https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/">GeeksForGeeks</a> </string>
+    <string name="pgm2">WORK@TECH DSA  <a href="https://workat.tech/problem-solving/lists/six-month-dsa-practice-sheet/practice">WORK@TECH</a> </string>
+    <string name="pgm3">GITHUB DSA  <a href="https://github.com/topics/dsa-practice">GITHUB DSA</a> </string>
+    <string name="pgm4">TUTORIALPOINTS DSA  <a href="https://www.tutorialspoint.com/data_structures_algorithms/data_structures_algorithms_online_test.htm">TUTORIALPOINTS DSA</a> </string>
+    <string name="pgm5">PREPINSTA APPTITUDE  <a href="https://prepinsta.com/data-structures/">PREPINSTA APPTITUDE</a> </string>
+
+
+    <string name="int1">TheMuse.com  <a href="https://www.themuse.com/advice/interview-questions-and-answers">TheMuse.com </a> </string>
+    <string name="int2">Mcafee.com<a href="https://www.mcafee.com/blogs/enterprise/cloud-security/225-information-technology-it-interview-questions/">Mcafee.com</a> </string>
+    <string name="int3">Monster.com <a href="https://www.monster.com/career-advice/article/100-potential-interview-questions">Monster.com</a></string>
+    <string name="int4">JavaTpoint.com <a href="https://www.javatpoint.com/job-interview-questions">JavaTpoint.com</a></string>
+    <string name="int5">SimpliLearn <a href="https://www.simplilearn.com/coding-interview-questions-article">SimpliLearn</a></string>
+
 
 </resources>
