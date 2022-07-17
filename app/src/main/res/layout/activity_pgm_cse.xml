@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".pgm_cse"
-    android:background="@color/brickred">
+    android:background="#f7e4d3">
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="624dp"
+        android:layout_marginEnd="204dp"
+        android:layout_marginBottom="620dp"
         android:text="@string/pgm1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -21,7 +21,7 @@
         android:id="@+id/text2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="120dp"
+        android:layout_marginEnd="160dp"
         android:layout_marginBottom="560dp"
         android:text="@string/pgm2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -31,8 +31,8 @@
         android:id="@+id/text3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="148dp"
-        android:layout_marginBottom="508dp"
+        android:layout_marginEnd="196dp"
+        android:layout_marginBottom="500dp"
         android:text="@string/pgm3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -41,8 +41,8 @@
         android:id="@+id/text4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="436dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="444dp"
         android:text="@string/pgm4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -51,8 +51,8 @@
         android:id="@+id/text5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="76dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="388dp"
         android:text="@string/pgm5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

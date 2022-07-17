@@ -5,13 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CivilActivity"
-    android:background="@color/white">
+    android:background="@color/back">
+
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="100dp"
         android:gravity="center"
         android:text="Mech"
-        android:textColor="@color/black" />
+        android:textColor="#624967"
+        android:textSize="60sp" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="463dp"
+        android:gravity="center"
+        android:text="We Will Be Updating Soon"
+        android:textColor="#624967"
+        android:textSize="30sp" />
 
 </RelativeLayout>

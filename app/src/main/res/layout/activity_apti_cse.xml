@@ -5,72 +5,72 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".apti_cse"
-    android:background="@color/brickred">
+    android:background="#f7e4d3">
 
     <TextView
         android:id="@+id/linktv1"
-        android:layout_width="380dp"
-        android:layout_height="70dp"
-        android:layout_marginEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginEnd="16dp"
         android:gravity="center"
         android:text="@string/hyperLink"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.087" />
+        app:layout_constraintVertical_bias="0.088" />
 
     <TextView
         android:id="@+id/linktv2"
-        android:layout_width="363dp"
+        android:layout_width="match_parent"
         android:layout_height="96dp"
-        android:layout_marginEnd="32dp"
+        android:layout_marginEnd="8dp"
         android:gravity="center"
         android:text="@string/hyperLink1"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.242" />
+        app:layout_constraintVertical_bias="0.24" />
 
     <TextView
         android:id="@+id/linktv3"
-        android:layout_width="321dp"
+        android:layout_width="match_parent"
         android:layout_height="71dp"
-        android:layout_marginEnd="72dp"
+        android:layout_marginEnd="12dp"
         android:gravity="center"
         android:text="@string/hyperLink2"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.407" />
+        app:layout_constraintVertical_bias="0.404" />
 
     <TextView
         android:id="@+id/linktv4"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="121dp"
-        android:layout_marginEnd="44dp"
+        android:layout_marginEnd="4dp"
         android:gravity="center"
         android:text="@string/hyperLink3"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.6" />
+        app:layout_constraintVertical_bias="0.598" />
 
     <TextView
         android:id="@+id/linktv5"
-        android:layout_width="310dp"
+        android:layout_width="match_parent"
         android:layout_height="148dp"
-        android:layout_marginEnd="60dp"
+        android:layout_marginEnd="12dp"
         android:gravity="center"
         android:text="@string/hyperLink4"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.876" />
+        app:layout_constraintVertical_bias="0.854" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

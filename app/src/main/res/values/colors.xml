@@ -10,5 +10,8 @@
     <color name="grey">#6C7275</color>
     <color name="greish">#B2B4B5</color>
     <color name="brickred"> #AA4A44</color>
+    <color name="navy">#313c4e</color>
+    <color name="back">#f7e4d3</color>
+    <color name="btn">#624967</color>
 
 </resources>

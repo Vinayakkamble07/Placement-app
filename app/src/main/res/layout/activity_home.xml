@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FAAD8C">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <androidx.cardview.widget.CardView
             android:id="@+id/c1"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="230dp"
             android:layout_margin="10dp"
-            android:background="@color/white">
+            android:background="@color/navy">
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo1"
-                android:background="@color/white"/>
+                android:src="@drawable/cse_final"
+                android:background="@color/navy"/>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:id="@+id/c2"
@@ -30,8 +31,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo2"
-                android:background="@color/white"/>
+                android:src="@drawable/ece_final"
+                android:background="@color/navy"/>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:id="@+id/c3"
@@ -43,8 +44,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo3"
-                android:background="@color/white"/>
+                android:src="@drawable/ecee_final"
+                android:background="@color/navy"/>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:id="@+id/c4"
@@ -56,8 +57,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo4"
-                android:background="@color/white"/>
+                android:src="@drawable/civil_final"
+                android:background="@color/navy"/>
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
             android:id="@+id/c5"
@@ -69,8 +70,8 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/logo5"
-                android:background="@color/white"/>
+                android:src="@drawable/mech_final"
+                android:background="@color/navy"/>
         </androidx.cardview.widget.CardView>
     </RelativeLayout>
 </ScrollView>
