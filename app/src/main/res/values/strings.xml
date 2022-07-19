@@ -40,6 +40,8 @@
     <string name="int3">Monster.com <a href="https://www.monster.com/career-advice/article/100-potential-interview-questions">Monster.com</a></string>
     <string name="int4">JavaTpoint.com <a href="https://www.javatpoint.com/job-interview-questions">JavaTpoint.com</a></string>
     <string name="int5">SimpliLearn <a href="https://www.simplilearn.com/coding-interview-questions-article">SimpliLearn</a></string>
+    <string name="back"><![CDATA[<-]]></string>
+    <string name="forward"><![CDATA[->]]></string>
 
 
 </resources>
