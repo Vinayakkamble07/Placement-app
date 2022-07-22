@@ -54,6 +54,21 @@ public class signIn extends AppCompatActivity {
     private void loginUser(){
         String email=mEmail.getText().toString();
         String pass=mPass.getText().toString();
+        String adminEmail="adminsgbit@gmail.com";
+        String adminPass="admin123";
+
+        if(email.equals(adminEmail) && pass.equals(adminPass))
+        {
+//       {    Intent intent=new Intent(signIn.this,adminPage.class);
+//            startActivity(intent);
+            mAuth.signInWithEmailAndPassword(email,pass).addOnSuccessListener(new OnSuccessListener<AuthResult>() {
+                @Override
+                public void onSuccess(AuthResult authResult) {
+                    Intent intent=new Intent(signIn.this,adminPage.class);
+                    startActivity(intent);
+                }
+            });
+        }
 
         if(!email.isEmpty()&& Patterns.EMAIL_ADDRESS.matcher(email).matches()){
             if (!pass.isEmpty()){

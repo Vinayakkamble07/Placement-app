@@ -12,7 +12,7 @@ import android.widget.Button;
 
 
 public class ftab2 extends Fragment {
-    Button btn;
+    Button btn,sch1;
 
 
 
@@ -25,6 +25,7 @@ public class ftab2 extends Fragment {
         View v1=inflater.inflate(R.layout.fragment_ftab2, container, false);
 
         btn=v1.findViewById(R.id.cal_btn);
+        sch1=v1.findViewById(R.id.sch);
 
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,17 @@ public class ftab2 extends Fragment {
                 startActivity(intent);
             }
         });
+
+        sch1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =new Intent(getActivity(),schedule.class);
+                startActivity(intent);
+
+            }
+        });
+
+
         // Inflate the layout for this fragment
         return v1;
 //        return inflater.inflate(R.layout.fragment_ftab2, container, false);

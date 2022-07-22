@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mEmail,mPass ;
-    private TextView mTextView;
+    private TextView mTextView ;
     private Button signUpbtn;
     private FirebaseAuth mAuth;
 
@@ -36,6 +36,8 @@ public class MainActivity extends AppCompatActivity {
         mTextView=findViewById(R.id.textView);
         signUpbtn=findViewById(R.id.reg_btn);
         mAuth=FirebaseAuth.getInstance();
+
+
 
         mTextView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,6 +59,8 @@ public class MainActivity extends AppCompatActivity {
     private void createUser(){
         String email=mEmail.getText().toString();
         String pass=mPass.getText().toString();
+
+
 
 
         if(!email.isEmpty()&& Patterns.EMAIL_ADDRESS.matcher(email).matches()){
